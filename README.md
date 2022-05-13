@@ -7,4 +7,4 @@
 
 ## Architecture
 
-[resume uploader cloud architecture diagram(/assets/resume_uploader.png)]
+![resume uploader cloud architecture diagram](/assets/resume_uploader.png)

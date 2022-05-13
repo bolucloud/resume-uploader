@@ -1,0 +1,9 @@
+type Candidate
+  @model
+  @auth(rules: [{ allow: owner, operations: [create, update] }]) {
+  id: ID!
+  name: String!
+  email: String!
+  resumeFile: String!
+  userIdentity: String!
+}

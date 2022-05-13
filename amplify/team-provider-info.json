@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-resumeuploader-dev-202322-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480428003157:role/amplify-resumeuploader-dev-202322-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480428003157:role/amplify-resumeuploader-dev-202322-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-resumeuploader-dev-202322-deployment",
+      "UnauthRoleName": "amplify-resumeuploader-dev-202322-unauthRole",
+      "StackName": "amplify-resumeuploader-dev-202322",
+      "StackId": "arn:aws:cloudformation:us-east-1:480428003157:stack/amplify-resumeuploader-dev-202322/4b1b73f0-d25b-11ec-b765-127dfa5eb70f",
+      "AmplifyAppId": "d1ugsipldh10ie"
+    },
+    "categories": {
+      "auth": {
+        "resumeuploader31e55219": {}
+      },
+      "function": {
+        "resumeuploadercedabb9d": {
+          "sesEmail": "bolu@bolu.cloud"
+        }
+      }
+    }
+  }
+}

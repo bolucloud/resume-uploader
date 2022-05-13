@@ -24,7 +24,7 @@ exports.handler = async (event) => {
       const candidateIdentity = streamedItem.dynamodb.NewImage.userIdentity.S;
 
       const RESUME_BUCKET =
-        process.env.resumeuploadere58cc4f1f78747f6bf99e18b0a1b72b7;
+        process.env.resumeuploader4d5a67a8eb7c4ca797a5f78593a3610b;
 
       try {
         // get record from s3

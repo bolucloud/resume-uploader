@@ -1,6 +1,6 @@
 {
   "auth": {
-    "resumeuploader31e55219": {
+    "resumeuploader6436b455": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -32,7 +32,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authresumeuploader31e55219"
+              "userPoolId": "authresumeuploader6436b455"
             }
           },
           "additionalAuthenticationProviders": []
@@ -47,7 +47,7 @@
     }
   },
   "function": {
-    "resumeuploadercedabb9d": {
+    "resumeuploader": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",

@@ -1,23 +1,21 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import "./App.css";
+import { AmplifyProvider } from "@aws-amplify/ui-react";
+import Amplify from "@aws-amplify/core";
+import config from "../src/aws-exports";
+import "@aws-amplify/ui-react/styles.css";
+import { Box, ChakraProvider, Container, Stack } from "@chakra-ui/react";
+import { ResumeModal } from "./components/ResumeModal";
+import { PageBody } from "./components/PageBody";
+import { withAuthenticator } from "@aws-amplify/ui-react";
+
+Amplify.configure(config);
 
 function App() {
   return (
-    <div className="App">
-      <Container fluid>
-        <Row>
-          <Col>1 of 1</Col>
-        </Row>
-        <div>Hiring Now</div>
-        <div>Think you got what it takes to join the team?</div>
-        <div>Lorem ipsum bla bla bla </div>
-        <Button variant="primary">Upload Resume</Button>
-      </Container>
-    </div>
+    <ChakraProvider>
+      <PageBody />
+      <ResumeModal />
+    </ChakraProvider>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

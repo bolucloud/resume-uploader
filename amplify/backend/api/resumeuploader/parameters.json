@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "resumeuploader",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authresumeuploader6436b455",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

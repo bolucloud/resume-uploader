@@ -1,7 +1,9 @@
 # Resume Uploader
 
-A responsive full stack web application that allows job candidates to upload a resume to the site.
+A full stack web application that allows job candidates to upload a resume to the site.
 Inspired by Indeed's resume upload feature.
+
+App deployed here -> https://main.d3oin70q393x3q.amplifyapp.com/
 
 ## Features
 
